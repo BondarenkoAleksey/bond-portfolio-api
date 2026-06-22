@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "figi": "BBG00000001",
+        "ticker": "RU000A10B4L1",
+        "name": "ДЕВАР ПЕТРО 001Р-01",
+        "nominal_price": 1000.0,
+        "current_price": 1100.88
+    },
+    {
+        "id": "2",
+        "figi": "BBG00000002",
+        "ticker": "RU000A106NT4",
+        "name": "ПИМ БО-02",
+        "nominal_price": 1000.0,
+        "current_price": 995.4
+    },
+    {
+        "id": "3",
+        "figi": "BBG00000003",
+        "ticker": "RU000A106R12",
+        "name": "ЭкономЛизинг 001Р-05",
+        "nominal_price": 1000.0,
+        "current_price": 988.2
+    },
+    {
+        "id": "4",
+        "figi": "BBG00000004",
+        "ticker": "RU000A1076A0",
+        "name": "БЭЛТИ-ГРАНД ООО БО-П06",
+        "nominal_price": 1000.0,
+        "current_price": 910.08
+    },
+    {
+        "id": "5",
+        "figi": "BBG00000005",
+        "ticker": "RU000A105LS2",
+        "name": "Реиннольц 001Р-02",
+        "nominal_price": 1000.0,
+        "current_price": 984.5
+    },
+    {
+        "id": "5",
+        "figi": "BBG00000005",
+        "ticker": "RU000A105LS2",
+        "name": "Реиннольц 001Р-02",
+        "nominal_price": 1000.0,
+        "current_price": 984.5
+    },
+    {
+        "id": "5",
+        "figi": "BBG00000005",
+        "ticker": "RU000A105LS2",
+        "name": "Реиннольц 001Р-02",
+        "nominal_price": 1000.0,
+        "current_price": 984.5
+    },
+    {
+        "id": "5",
+        "figi": "BBG00000005",
+        "ticker": "RU000A105LS2",
+        "name": "Реиннольц 001Р-02",
+        "nominal_price": 1000.0,
+        "current_price": 984.5
+    },
+    {
+        "id": "5",
+        "figi": "BBG00000005",
+        "ticker": "RU000A105LS2",
+        "name": "Реиннольц 001Р-02",
+        "nominal_price": 1000.0,
+        "current_price": 984.5
+    }
+]
