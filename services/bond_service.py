@@ -15,6 +15,14 @@ def get_bond_by_id(bond_id: str) -> dict:
 
 def add_bond(bond_data: dict) -> dict:
     bonds = get_all_bonds()
-    bonds.append(bond_data)
+    bond_copy = bond_data.copy()
+    bonds.append(bond_copy)
     save_bonds(bonds=bonds)
-    return bond_data
+    return bond_copy
+
+
+def search_bonds(keyword: str) -> list[dict]:
+    bonds = get_all_bonds()
+    result = [bond for bond in bonds if
+              keyword.lower() in bond["name"].lower() or keyword.lower() in bond["ticker"].lower()]
+    return result

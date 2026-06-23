@@ -38,37 +38,5 @@
         "name": "Реиннольц 001Р-02",
         "nominal_price": 1000.0,
         "current_price": 984.5
-    },
-    {
-        "id": "5",
-        "figi": "BBG00000005",
-        "ticker": "RU000A105LS2",
-        "name": "Реиннольц 001Р-02",
-        "nominal_price": 1000.0,
-        "current_price": 984.5
-    },
-    {
-        "id": "5",
-        "figi": "BBG00000005",
-        "ticker": "RU000A105LS2",
-        "name": "Реиннольц 001Р-02",
-        "nominal_price": 1000.0,
-        "current_price": 984.5
-    },
-    {
-        "id": "5",
-        "figi": "BBG00000005",
-        "ticker": "RU000A105LS2",
-        "name": "Реиннольц 001Р-02",
-        "nominal_price": 1000.0,
-        "current_price": 984.5
-    },
-    {
-        "id": "5",
-        "figi": "BBG00000005",
-        "ticker": "RU000A105LS2",
-        "name": "Реиннольц 001Р-02",
-        "nominal_price": 1000.0,
-        "current_price": 984.5
     }
 ]
