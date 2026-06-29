@@ -1,4 +1,4 @@
-from services.bond_service import add_bond, get_bond_by_id, get_all_bonds, search_bonds
+from services.bond_service import add_bond, get_bond_by_id, get_all_bonds, search_bonds, get_unique_tickers
 
 BOND_DATA =     {
         "id": "5",
@@ -20,3 +20,4 @@ if __name__ == '__main__':
     assert len(get_all_bonds()) > 0, "Список облигаций пуст"
     assert get_bond_by_id("1")["ticker"] is not None, "Нет тикера у облигации"
     print(search_bonds("ПЕТРО 001Р-01"))
+    print(get_unique_tickers())
