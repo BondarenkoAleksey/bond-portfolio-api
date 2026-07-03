@@ -76,7 +76,7 @@ def get_unique_tickers() -> set[str]:
     return {bond["ticker"] for bond in bonds}
 
 
-def delete_bond(bond_id: str) -> None:
+def remove_bond(bond_id: str) -> None:
     """
     Удалить облигацию по id.
     Args:

@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
 
 from api.schemas import BondResponse, BondCreate
-from services.bond_service import get_all_bonds, get_bond_by_id, add_bond, delete_bond
+from services.bond_service import get_all_bonds, get_bond_by_id, add_bond, remove_bond
 
 router = APIRouter()
 
@@ -36,6 +36,6 @@ def create_bond(bond_data: BondCreate) -> BondResponse:
 def delete_bond(bond_id: str) -> None:
     """Удаление облигации по id."""
     try:
-        delete_bond(bond_id)
+        remove_bond(bond_id)
     except KeyError as e:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(e))
